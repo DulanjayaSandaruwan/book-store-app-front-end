@@ -15,7 +15,7 @@ const Header = () => {
             <Tabs 
               sx = {{ml:'auto'}}
               textColor='inherit' 
-              indicatorColor='secondary' 
+              indicatorColor='primary' 
               value={value} 
               onChange={(e, val)=> setValue(val)} 
             >
